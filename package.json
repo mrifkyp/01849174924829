@@ -1,0 +1,17 @@
+{
+  "name": "bypass-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT",
+  "description": "API untuk melakukan bypass dan dekode URL",
+  "author": "Made by Dark"
+}
