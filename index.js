@@ -16,7 +16,7 @@ app.get('/decode', (req, res) => {
     if (!rParam) {
         const timeTaken = formatTimeTaken(startTime);
         return res.status(400).json({
-            error: "Parameter 'r' tidak ditemukan dalam URL.",
+            error: "Bypass Failed",
             status: "Failed",
             time_taken: timeTaken
         });
